@@ -167,6 +167,9 @@ a:hover,a:focus,a.active{
 ========================================================================================*/
 /*  Margin 
 ======================*/
+.m_0{
+	margin: 0px;
+}
 .mx_10{
 	margin: 0px 10px;
 }
@@ -200,6 +203,9 @@ a:hover,a:focus,a.active{
 .mr_60{
   margin-right: 60px;
 }
+.mb_5{
+  margin-bottom: 5px
+}
 .mb_15{
     margin-bottom: 15px
 }
@@ -217,6 +223,7 @@ a:hover,a:focus,a.active{
 .p_20{
   padding: 20px;
 }
+
 .py_60{
   padding: 60px 0px;
 }
@@ -240,6 +247,9 @@ a:hover,a:focus,a.active{
 }
 .pb_30{
 	padding-bottom: 30px;
+}
+.pb_0{
+	padding-bottom: 0;
 }
 
 /*=======================================================================
@@ -308,7 +318,7 @@ a:hover,a:focus,a.active{
     padding-left: 35px;
 }
 .section_title_1{
-  width: 60%;
+  width: 63%;
 }
 .main_title p{
   width: 40%;
@@ -704,6 +714,7 @@ ul#menu li a{
 }
 .profile_img.personal_video{
     position: relative;
+    padding: 15px;
 }
 .profile_img.personal_video a {
     position: absolute;
@@ -762,7 +773,6 @@ ul#menu li a{
 }
 .prgs-bar > span{
   font-weight: 600;
-  text-transform: uppercase
 }
 .skill-progress .progress{
   margin: 5px 0 20px;
@@ -844,8 +854,14 @@ ul#menu li a{
 16.   Services Two
 ====================================================================================*/
 .service_two p{
-  padding: 30px 20px;
+  padding: 10px 20px 0px 20px;
+  text-align: justify;
 }
+
+.service_two p:last-child{
+  padding-bottom: 15px;
+}
+
 .srv_item_number{
     position: relative;
     overflow: hidden;
@@ -871,8 +887,7 @@ ul#menu li a{
     padding-right: 20px;
 }
 .service_two .srv_icon{
-    width: 100px;
-    height: 100px;
+    width: 75%;
     transition: all .8s ease;
     text-align: center;
     margin: 0 auto
@@ -885,7 +900,7 @@ ul#menu li a{
     top: 0;
 }
 .service_two:hover .srv_icon{
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
 }
 
 /*===============================================================================
