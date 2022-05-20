@@ -318,6 +318,5 @@ if($contact.length){
 
     });
   }
-
 })(jQuery);
 
